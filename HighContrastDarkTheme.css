@@ -1,0 +1,146 @@
+/**
+  * @name High Contrast Dark Theme
+  * @author KilianB.
+  * @version 1.0.3
+  * @description High Contrast Dark Theme for Discord
+  * @authorId 1255122069100822542
+  * @website https://kilianb.bbd-8.org
+  * @invite x9CVnnkH
+*/
+
+/* Hintergrundfarben */
+:root {
+    opacity: 1.0;
+  --background-primary: #141414; /* Haupt-Hintergrund */
+  --background-secondary: #141414; /* Sekundär-Hintergrund */
+  --background-tertiary: #1f1524; /* Tertiär-Hintergrund */
+  --background-accent: #46145a; /* Akzentfarbe */
+  --scrollbar-thin-thumb: #6a6a6a; /* Scrollbar */
+}
+
+/* Textfarben */
+:root {
+  --text-normal: #ffffff; /* Standard-Text */
+  --text-muted: #c0c0c0; /* Gedimmter Text */
+  --text-accent: #7d10a8; /* Akzentfarbiger Text */
+  --text-on-primary: #ffffff; /* Text auf primärem Hintergrund */
+}
+
+/* UI-Elemente */
+:root {
+  --interactive-normal: #7d10a8; /* Interaktive Elemente wie Buttons */
+  --interactive-hover: #980ccf; /* Hover-Effekt */
+  --interactive-active: #4a10a8; /* Aktive Elemente */
+}
+
+/* Seitenleisten und Kanäle */
+.sidebar-2K8pFh {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Container und Wrapper */
+.container-3baos1, .wrapper-1BJsBx, .content-98HsJk {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Nachrichten im Kanal */
+.message-2qnXI6 {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-normal) !important;
+}
+
+.message-2qnXI6:hover {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Benutzerliste */
+.members-1998pB {
+  background-color: var(--background-primary) !important;
+}
+
+.member-2FrNV0 .nameAndDecorators-3twbLw {
+  color: var(--text-accent) !important;
+}
+
+/* Texteingabefeld */
+.textArea-12jD-V {
+  background-color: var(--background-tertiary) !important;
+  color: var(--text-normal) !important;
+  border: 1px solid var(--interactive-hover);
+}
+
+.textArea-12jD-V:focus {
+  border: 1px solid var(--interactive-active);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thin-thumb);
+  border-radius: 4px;
+}
+
+/* Buttons */
+.button-1cRKG6 {
+  background-color: var(--interactive-normal) !important;
+  color: var(--text-accent) !important;
+}
+
+.button-1cRKG6:hover {
+  background-color: var(--interactive-hover) !important;
+}
+
+.button-1cRKG6:active {
+  background-color: var(--interactive-active) !important;
+}
+
+/* Erwähnungen (Mentions) */
+.mention-1h0cM8 {
+  background-color: var(--interactive-active) !important;
+  color: var(--text-normal) !important;
+}
+
+.mention-1h0cM8:hover {
+  background-color: var(--interactive-hover) !important;
+}
+
+/* Benutzer-Popups */
+.userPopout-11I7zu {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-normal) !important;
+  border: 1px solid var(--interactive-hover) !important;
+}
+
+/* Sprachkanäle */
+.containerDefault-1ZnADq, .containerHovered-2bVRVZ {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-accent) !important;
+}
+
+/* Hintergrund der Einstellungspanels */
+.layer-2KE1M9, .standardSidebarView-3F1I7i, .contentColumn-2hrIYH, .contentRegion-3nDuYy {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Sektionen in den Einstellungen */
+.settingsItem-1uB5aN, .optionPopout-1XO90A, .optionButton-2xdMLo {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-normal) !important;
+  border: 1px solid var(--interactive-hover);
+}
+
+.settingsItem-1uB5aN:hover, .optionButton-2xdMLo:hover {
+  background-color: var(--background-tertiary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Text in den Einstellungen */
+.title-31JmR4, .label-2Fjvr5, .inputWrapper-1YNMmU, .optionTitle-1dO7FW {
+  color: var(--text-normal) !important;
+}
